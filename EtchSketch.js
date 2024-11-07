@@ -1,4 +1,4 @@
-const container = document.querySelector("#container")
+const container = document.querySelector(".column")
 
 for(let i = 0; i < 16; i++){
     const div = document.createElement("div");
