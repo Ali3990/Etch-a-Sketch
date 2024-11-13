@@ -1,15 +1,22 @@
-.row {
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    align-items: center;
+    width: 400px;
+    justify-content: space-around;
 }
 
-.column {
-    flex-basis: 100%;
-}
-
-@media screen and (min-width: 800px) {
-    .column{
-        flex:1
-    }
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
 }
